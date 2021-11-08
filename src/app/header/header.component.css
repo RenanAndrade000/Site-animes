@@ -1,0 +1,45 @@
+.header-container{
+    margin-bottom: 15px ;
+}
+.search{
+    left: 45rem;
+    flex-direction: row;
+}
+.header{
+    display: flex;
+    align-items: center;
+    height: 55pt;
+    padding: 0;
+    
+}
+.input-form{
+    padding: 0;
+    left: 25rem;
+    top: 8px;
+    color:rgb(255, 239, 239);
+}
+form{
+    height: 5px;
+
+}
+.header .title{
+    left: 30px;
+    margin: 20px;
+}
+
+.inicio{
+    left: 80px;
+    margin: 10px;   
+}
+.lista{
+    left: 80px;
+    margin: 10px;
+}
+.mangas{
+    left: 80px;
+    margin: 10px;
+}
+mat-toolbar{
+    background: #da062e;
+    color: #fff;
+}

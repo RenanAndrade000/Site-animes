@@ -1,0 +1,9 @@
+<div class = "container">
+    <mat-card class='fundo'>
+       <mat-card class="card" *ngFor = "let Recommendations of recommendations; let i = index">
+            <img class="img" src={{imgUrl[i]}}/>
+            <h3 class="anime-name" maxlength="3">{{ recommendations[i] }}</h3>
+        </mat-card> 
+    </mat-card>
+    
+</div>
